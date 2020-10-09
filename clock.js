@@ -39,7 +39,7 @@ module.exports = RED => {
 					</svg>
 					<input type="hidden" value="{{ msg.payload }}" />
 				`,
-				width: config.width,
+				width: +config.width || RED.nodes.getNode( config.group ).config.width,
 				height: +config.height || RED.nodes.getNode( config.group ).config.width,
 				group: config.group,
 				order: config.order,
