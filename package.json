@@ -8,7 +8,7 @@
 		"time",
 		"ui"
 	],
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"license": "MIT",
 	"author": {
 		"name": "Patrick Knabe",
@@ -23,7 +23,7 @@
 	},
 	"homepage": "https://github.com/patrickknabe/node-red-contrib-ui-clock#readme",
 	"peerDependencies": {
-		"node-red-dashboard": "^2.23.2"
+		"node-red-dashboard": ">=2.23.2"
 	},
 	"node-red": {
 		"nodes": {
